@@ -1,0 +1,21 @@
+{
+  "name": "surffbot",
+  "version": "1.0.0",
+  "description": "A telegram bot called surff Bot",
+  "main": "app.js",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "micro-bot": "^2.5.3",
+    "telegraf": "^4.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "micro-bot"
+  },
+  "keywords": [
+    "surff",
+    "Bot"
+  ],
+  "author": "Rajath",
+  "license": "MIT"
+}
