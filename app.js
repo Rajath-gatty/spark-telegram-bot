@@ -63,6 +63,7 @@ bot.start((ctx) => {
                     });
                 }
             })
+
             .catch((err) =>
                 ctx.telegram.sendMessage(
                     ctx.chat.id,
