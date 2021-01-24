@@ -43,7 +43,7 @@ bot.start((ctx) => {
     });
 
     bot.command("quit", (ctx) => {
-        bot.leaveChat();
+        ctx.leaveChat();
     });
 
     bot.command("search", (ctx) => {
